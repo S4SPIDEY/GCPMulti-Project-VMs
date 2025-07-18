@@ -7,7 +7,7 @@ read -rp "Enter option [1 or 2]: " MODE
 # === CONFIG ===
 DEFAULT_ZONE="us-central1-a"
 DEFAULT_IMAGE="projects/ubuntu-os-cloud/global/images/ubuntu-minimal-2410-oracular-amd64-v20250709"
-DEFAULT_MACHINE_TYPE="c2d-standard-4"
+DEFAULT_MACHINE_TYPE="c2d-highmem-4"
 MAX_PROJECTS=3
 MAX_VMS=2
 
