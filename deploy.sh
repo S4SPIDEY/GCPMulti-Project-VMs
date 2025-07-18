@@ -64,7 +64,7 @@ for PROJ in "${PROJECT_IDS[@]}"; do
       --zone="$DEFAULT_ZONE" \
       --machine-type="$DEFAULT_MACHINE_TYPE" \
       --metadata="ssh-keys=$SSH_USER:$SSH_KEY" \
-      --create-disk=auto-delete=yes,boot=yes,image="$DEFAULT_IMAGE",size=60,type=pd-balanced \
+      --create-disk=auto-delete=yes,boot=yes,image="$DEFAULT_IMAGE",size=70,type=pd-balanced \
       --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default \
       --no-service-account --no-scopes \
       --tags=http-server,https-server \
